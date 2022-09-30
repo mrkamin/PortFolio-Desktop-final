@@ -73,7 +73,7 @@ nav ul li {
 }
 
 .page-header-container {
-  background-image: url(image/Header-background.png);
+  background-image: url(image/Header\ bg.svg);
   background-color: var(--default);
   background-repeat: no-repeat;
   background-position: center;
@@ -81,7 +81,7 @@ nav ul li {
   display: flex;
   flex-direction: column;
   margin: 40px 8px 77px 35px;
-  padding: 288px 260px 400px 260px;
+  padding: 300px 150px 150px 150px;
   border-bottom-left-radius: 100px;
 }
 
@@ -249,7 +249,6 @@ button {
 
 .icons-foot {
   padding-left: 10px;
-  justify-content: center;
 }
 
 hr {
@@ -269,6 +268,7 @@ hr {
   color: #6070ff;
   border-radius: 8px;
   display: flex;
+  position: absolute;
 }
 
 /* footer */
