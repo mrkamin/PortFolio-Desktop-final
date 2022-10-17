@@ -1,4 +1,3 @@
-const worksSection = document.getElementById('works-container');
 const closeMenuBtn = document.getElementById('close-menu-btn');
 const navBar = document.getElementById('mobile_navbar');
 const toggleBtn = document.getElementById('toggle');
