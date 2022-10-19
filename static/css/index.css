@@ -686,7 +686,6 @@ header {
   transition: all 0.5s;
 }
 
-
 .form__control > input[type="submit"]:hover {
   border: 1px solid #fff;
   color: #fff;
