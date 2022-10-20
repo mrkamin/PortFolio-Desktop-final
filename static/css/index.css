@@ -1,3 +1,19 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+/* colors */
+
+:root {
+    --c-brand: #f83691;
+    --c-brand-rgb: 248, 54, 145;
+    --c-dark: #303050;
+    --c-body: #636383;
+    --c-light: #f6f6f6;
+    --f-main: "Bai Jamjuree", sans-serif;
+    --transition: all .4s cubic-bezier(.165, .84, .44, 1);
+    --shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
+}
+
 /* start index styles */
 
 /*
@@ -123,6 +139,16 @@ a.project {
 /* start nav */
 header {
   background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  transition: var(--transition);
+}
+
+header.scrolled {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: white;
+  box-shadow: var(--shadow);
 }
 
 .header__container__parhead {
@@ -134,7 +160,8 @@ header {
 
 .header__container__parhead__brand > a {
   height: 72px;
-  font-size: 18px;
+  font-size: 24px;
+  font-weight: 700;
   color: hsl(242 88% 56% / 0.8);
   display: flex;
   justify-content: center;
