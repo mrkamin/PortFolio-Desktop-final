@@ -1,17 +1,32 @@
 /* fonts */
 
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
 /* colors */
 
+::-webkit-scrollbar {
+  width: 6.5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e8dfec;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 51.2413%;
+  background-color: hsl(242 88% 56% / 0.8);
+  border-radius: 0 0 10px 10px;
+}
+
 :root {
-    --c-brand: #f83691;
-    --c-brand-rgb: 248, 54, 145;
-    --c-dark: #303050;
-    --c-body: #636383;
-    --c-light: #f6f6f6;
-    --f-main: "Bai Jamjuree", sans-serif;
-    --transition: all .4s cubic-bezier(.165, .84, .44, 1);
-    --shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
+  --c-brand: #f83691;
+  --c-brand-rgb: 248, 54, 145;
+  --c-dark: #303050;
+  --c-body: #636383;
+  --c-light: #f6f6f6;
+  --c-main: "Bai Jamjuree", sans-serif;
+  --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  --shadow: 15px 40px rgba(0, 0, 0, 0.1);
 }
 
 /* start index styles */
@@ -42,20 +57,6 @@ body {
   background-color: #f7f7f9;
   position: relative;
   overflow-x: hidden;
-}
-
-::-webkit-scrollbar {
-  width: 6.5px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: #e8dfec;
-}
-
-::-webkit-scrollbar-thumb {
-  height: 51.2413%;
-  background-color: hsl(242 88% 56% / 0.8);
-  border-radius: 0 0 10px 10px;
 }
 
 html {
