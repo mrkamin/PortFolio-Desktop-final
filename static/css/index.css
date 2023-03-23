@@ -403,7 +403,6 @@ header.scrolled {
   background-color: #fff;
   border-radius: 5px;
   padding: 30px;
-  height: fit-content;
 }
 
 .parpopup__popup > .head {
