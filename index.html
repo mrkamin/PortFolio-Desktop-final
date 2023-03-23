@@ -2,367 +2,477 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="this is my awesome portfolio powered by Osama Ashraf"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- start fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./design/css/style.css" />
+    <!-- end fonts -->
+    <link rel="stylesheet" href="./static/css/index.css" />
     <title>MRK Amin's Portfolio</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="logo-link" href="#">
-          <h2 class="logo">MRK Amin.</h2>
-        </a>
-        <ul id="mobile_navbar" class="desk-top-menu">
-          <li class="close-menu-btn" id="close-menu-btn">
-            <img src="./design/assets/closeBtn.svg" alt="close button" />
-          </li>
-          <li class="mob-nav-item"><a href="#works-container">Portfolio</a></li>
-          <li class="mob-nav-item"><a href="#about-container">About</a></li>
-          <li class="mob-nav-item"><a href="#contact-me">Contact</a></li>
-        </ul>
-        <a  id="toggle" class="burger-menu" href="#" 
-          ><img src="./design/assets/Union.svg" alt="collapsed menu"
-        /></a>
-      </nav>
-    </header>
-    <main>
-      <section id="hero-container">
-        <h1 class="my-name">I’m Mohammad Rafi Amin Glad to see you!</h1>
-        <p class="my-description">
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me.
-        </p>
-        <ul class="project-used-techs">
-          <li>html</li>
-          <li>CSS</li>
-          <li>javascript</li>
-        </ul>
-      </section>
-      <section id="works-container">
-        <a href="#" class="project-card first-project">
-          <img
-            class="project-img mobile-img"
-            src="./design/assets/Snapshoot Portfolio desktop.png"
-            alt="Snapshoot for the project image"
-          />
-          <img
-            class="project-img desktop-img"
-            src="./design/assets/Snapshoot Portfolio desktop.png"
-            alt="Snapshoot for the project image"
-          />
-          <div class="works-content-container">
-            <h2 class="project-name">Tonic</h2>
-            <div class="project-details">
-              <h3>CANOPY</h3>
-              <img
-                src="./design/assets/Counter.svg"
-                alt="Decorative separator dot image"
-              />
-              <h3>Back End Dev</h3>
-              <img
-                src="./design/assets/Counter.svg"
-                alt="Decorative separator dot image"
-              />
-              <h3>2022</h3>
-            </div>
-            <p class="project-description">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="project-used-techs">
-              <li>html</li>
-              <li>CSS</li>
-              <li>javascript</li>
-            </ul>
-            <button class="call-to-action-btns">See Projects</button>
+    <!-- start nav -->
+    <header class="nav" id="nav">
+      <div class="container">
+        <div class="header__container__parhead">
+          <div class="header__container__parhead__brand">
+            <a href="#">MRK Amin.</a>
           </div>
-        </a>
 
-        <a href="#" class="project-card second-project">
-          <img
-            class="project-img mobile-img"
-            src="./design/assets/Snapshoot Portfolio.svg"
-            alt="Snapshoot for the project image"
-          />
-          <img
-            class="project-img desktop-img"
-            src="./design/assets/desktop-image-uber.png"
-            alt="Snapshoot for the project image"
-          />
-          <div class="works-content-container">
-            <h2 class="project-name">Multi-Post Stories</h2>
-            <div class="project-details">
-              <h3>CANOPY</h3>
-              <img
-                src="./design/assets/Counter.svg"
-                alt="Decorative separator dot image"
-              />
-              <h3>Back End Dev</h3>
-              <img
-                src="./design/assets/Counter.svg"
-                alt="Decorative separator dot image"
-              />
-              <h3>2022</h3>
-            </div>
-            <p class="project-description">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="project-used-techs">
-              <li>html</li>
-              <li>CSS</li>
-              <li>javascript</li>
+          <nav class="header__container__parhead__nav">
+            <ul class="header__container__parhead__nav__ul">
+              <li>
+                <div class="header__container__parhead__nav__ul__responsive">
+                  <div class="bar bar__1"></div>
+                  <div class="bar bar__2"></div>
+                  <div class="bar bar__3"></div>
+                </div>
+              </li>
+              <li>
+                <ul class="iwq">
+                  <li><a href="#portoflio" class="mobile-nav-links">Portoflio</a></li>
+                  <li><a href="#about" class="mobile-nav-links">About</a></li>
+                  <li><a href="#contact" class="mobile-nav-links">Contact</a></li>
+                </ul>
+              </li>
             </ul>
-            <button class="call-to-action-btns">See Project</button>
-          </div>
-        </a>
-
-        <a href="#" class="project-card third-project">
-          <img
-            class="project-img mobile-img"
-            src="./design/assets/Snapshoot Portfolio-1.svg"
-            alt="Snapshoot for the project image"
-          />
-          <img
-            class="project-img desktop-img"
-            src="./design/assets/Snapshoot Portfolio.jpg"
-            alt="Snapshoot for the project image"
-          />
-          <div class="works-content-container">
-            <h2 class="project-name">Multi-Post Stories</h2>
-            <div class="project-details">
-              <h3>CANOPY</h3>
-              <img
-                src="./design/assets/Counter.svg"
-                alt="Decorative separator dot image"
-              />
-              <h3>Back End Dev</h3>
-              <img
-                src="./design/assets/Counter.svg"
-                alt="Decorative separator dot image"
-              />
-              <h3>2022</h3>
-            </div>
-            <p class="project-description">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="project-used-techs">
-              <li>html</li>
-              <li>CSS</li>
-              <li>javascript</li>
-            </ul>
-            <button class="call-to-action-btns">See Project</button>
-          </div>
-        </a>
-
-        <a href="#" class="project-card forth-project">
-          <img
-            class="project-img mobile-img"
-            src="./design/assets/Snapshoot Portfolio.png"
-            alt="Snapshoot for the project image"
-          />
-          <img
-            class="project-img desktop-img"
-            src="./design/assets/multi-post-deksotp.png"
-            alt="Snapshoot for the project image"
-          />
-          <div class="works-content-container">
-            <h2 class="project-name">Multi-Post Stories</h2>
-            <div class="project-details">
-              <h3>CANOPY</h3>
-              <img
-                src="./design/assets/Counter.svg"
-                alt="Decorative separator dot image"
-              />
-              <h3>Back End Dev</h3>
-              <img
-                src="./design/assets/Counter.svg"
-                alt="Decorative separator dot image"
-              />
-              <h3>2022</h3>
-            </div>
-            <p class="project-description">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="project-used-techs">
-              <li>html</li>
-              <li>CSS</li>
-              <li>javascript</li>
-            </ul>
-            <button class="call-to-action-btns">See Project</button>
-          </div>
-        </a>
-      </section>
-      <section id="about-container">
-        <div class="about-call-to-action">
-          <h2 class="my-name">About Myself</h2>
-          <p class="my-description">
-            Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don’t
-            hestiate to contact me.
-          </p>
-          <a class="my-email-link" href=#contact-me>LET’S CONNECT</a>
-          <ul class="about-my-social">
-            <li>
-              <a href="https://github.com/mrkamin"
-                ><img
-                  src="./design/assets/git.svg"
-                  alt="MRK Amin's github profile"
-              /></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/mohammad-rafi-amin-63b4319b/"
-                ><img
-                  src="./design/assets/Linkedin-icon.svg"
-                  alt="MRK Amin's Linkedin profile"
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img
-                  src="./design/assets/awards.svg"
-                  alt="MRK Amin's Awards profile"
-              /></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/Mohamma63974237"
-                ><img
-                  src="./design/assets/twitter.svg"
-                  alt="MRK Amin's twitter profile"
-              /></a>
-            </li>
-
-            <li>
-              <a href="#"
-                ><img
-                  src="./design/assets/meduim.svg"
-                  alt="MRK Amin's Medium profile"
-              /></a>
-            </li>
-          </ul>
-
-          <a class="call-to-action-btns about-btn" href="#">Get my resume</a>
+          </nav>
         </div>
-        <ul class="about-skills">
-          <li class="slide active">
-            <div class="slide-header">
-              <h4>Languages</h4>
-              <img
-                class="arrow"
-                src="./design/assets/arrow.svg"
-                alt="Reveal more arrow"
-              />
+      </div>
+    </header>
+    <!-- end nav -->
+    <!-- start sectionone -->
+    <main>
+      <section>
+        <div class="sectionone" id="sectionone">
+          <div class="overlay">
+            <div class="sectionone__heroimage">
+              <h1>
+                I’m Mohammad Rafi Amin<br />
+                Glad to see you!
+              </h1>
+              <p>
+                I’m a software developer! I can help you build a product ,
+                feature or website Look through<br />
+                some of my work and experience! If you like what you see and
+                have a project you need <br />
+                coded, don’t hestiate to contact me.
+              </p>
+              <button>LET’S CONNECT</button>
+              <ul class="social">
+                <li class="social__responsive">
+                  <a href="https://twitter.com">
+                    <img
+                      src="./static/imgs/twitter.png"
+                      alt="twitter"
+                      class="social__responsive__respo"
+                    />
+                  </a>
+                </li>
+                <li class="social__responsive">
+                  <a href="https://linkedin.com">
+                    <img
+                      src="./static/imgs/Linkedin icon.png"
+                      alt="Linkedin"
+                      class="social__responsive__respo"
+                    />
+                  </a>
+                </li>
+                <li class="social__responsive">
+                  <a href="https://medium.com">
+                    <img
+                      src="./static/imgs/medium.png"
+                      alt="medium"
+                      class="social__responsive__respo"
+                    />
+                  </a>
+                </li>
+                <li class="social__responsive">
+                  <a href="https://github.com">
+                    <img
+                      src="./static/imgs/github.png"
+                      alt="github"
+                      class="social__responsive__respo"
+                    />
+                  </a>
+                </li>
+                <li class="social__responsive">
+                  <a href="https://angellist.com">
+                    <img
+                      src="./static/imgs/angellist.png"
+                      alt="angellist"
+                      class="social__responsive__respo"
+                    />
+                  </a>
+                </li>
+              </ul>
             </div>
-            <ul class="slide-content">
-              <li>
-                <img
-                  src="./design/assets/javascript.svg"
-                  alt="Javascript logo"
-                />
-                <h6>JavaScript</h6>
-              </li>
-              <li>
-                <img src="./design/assets/html.svg" alt="HTML logo" />
-                <h6>HTML</h6>
-              </li>
-              <li>
-                <img src="./design/assets/css.svg" alt="CSS logo" />
-                <h6>CSS</h6>
-              </li>
-            </ul>
-          </li>
-          <li class="slide">
-            <div class="slide-header">
-              <h4>Frameworks</h4>
-              <img
-                class="arrow"
-                src="./design/assets/arrow.svg"
-                alt="Reveal more arrow"
-              />
+          </div>
+        </div>
+        <!-- end sectionone -->
+        <div class="parpopup">
+          <div class="parpopup__popup"></div>
+        </div>
+        <!-- start sectiontwo -->
+        <div class="sectiontwo pd-y" id="portoflio">
+          <a
+            href="javascript:void(0)"
+            onclick="detail('project1')"
+            class="project"
+            data-project="project1"
+          >
+            <div class="container">
+              <div class="sectiontwo__container__items">
+                <div class="sectiontwo__container__items__item">
+                  <div class="sectiontwo__container__items__item__responsive">
+                    <img
+                      src="./static/imgs/three.png"
+                      alt="one"
+                      class="responsive sectiontwo__container__items__item__responsive__respo"
+                    />
+                  </div>
+                </div>
+                <div class="sectiontwo__container__items__item">
+                  <h2>Tonic</h2>
+                  <ul class="first__ul">
+                    <li>CANOPY</li>
+                    <li class="disc">Back End Dev</li>
+                    <li class="disc">2015</li>
+                  </ul>
+                  <p>
+                    A daily selection of privately personalized reads; no
+                    accounts or sign-ups required.
+                  </p>
+                  <ul class="second__ul">
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javaScript</li>
+                  </ul>
+                  <button class="hover">See Project</button>
+                </div>
+              </div>
             </div>
-          </li>
-          <li class="slide">
-            <div class="slide-header">
-              <h4>Skills</h4>
-              <img
-                class="arrow"
-                src="./design/assets/arrow.svg"
-                alt="Reveal more arrow"
-              />
+          </a>
+        </div>
+        <!-- end sectiontwo -->
+        <!-- start sectionthree -->
+        <div class="sectionthree pd-y" id="sectionthree">
+          <a
+            href="javascript:void(0)"
+            onclick="detail('project2')"
+            class="project"
+            data-project="project2"
+          >
+            <div class="container">
+              <div class="sectionthree__container__posts">
+                <div class="sectionthree__container__posts__post order__2">
+                  <div class="sectionthree__container__posts__post__responsive">
+                    <img
+                      src="./static/imgs/four.png"
+                      alt="two"
+                      class="responsive sectionthree__container__posts__post__responsive__respo"
+                    />
+                  </div>
+                </div>
+                <div class="sectionthree__container__posts__post order__1">
+                  <h2>Multi-Post Stories</h2>
+                  <ul class="first__ul">
+                    <li>FACEBOOK</li>
+                    <li class="disc">Full Stack Dev</li>
+                    <li class="disc">2015</li>
+                  </ul>
+                  <p>
+                    Experimental content creation feature that allows users to
+                    add to an existing story over the course of a day without
+                    spamming their friends.
+                  </p>
+                  <ul class="second__ul">
+                    <li>html</li>
+                    <li>Ruby</li>
+                    <li>css</li>
+                    <li>javaScript</li>
+                  </ul>
+                  <button class="hover">See Project</button>
+                </div>
+              </div>
             </div>
-          </li>
-        </ul>
+          </a>
+        </div>
+        <!-- end sectionthree -->
+        <!-- start sectionfour -->
+        <div class="sectionfour pd-y" id="sectionfour">
+          <a
+            href="javascript:void(0)"
+            onclick="detail('project3')"
+            class="project"
+            data-project="project3"
+          >
+            <div class="container">
+              <div class="sectionfour__container__rows">
+                <div class="sectionfour__container__rows__row">
+                  <div class="sectionfour__container__rows__row__responsive">
+                    <img
+                      src="./static/imgs/Snapshoot Portfolio.png"
+                      alt="three"
+                      class="responsive sectionfour__container__rows__row__responsive__respo"
+                    />
+                  </div>
+                </div>
+                <div class="sectionfour__container__rows__row">
+                  <h2>Tonic</h2>
+                  <ul class="first__ul">
+                    <li>FACEBOOK</li>
+                    <li class="disc">Full Stack Dev</li>
+                    <li class="disc">2015</li>
+                  </ul>
+                  <p>
+                    Exploring the future of media in Facebook's first Virtual
+                    Reality app; a place to discover and enjoy 360 photos and
+                    videos on Gear VR.
+                  </p>
+                  <ul class="second__ul">
+                    <li>html</li>
+                    <li>Ruby</li>
+                    <li>css</li>
+                    <li>javaScript</li>
+                  </ul>
+                  <button class="hover">See Project</button>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end sectionfour -->
+        <!-- start sectionfive -->
+        <div class="sectionfive pd-y" id="sectionfive">
+          <a
+            href="javascript:void(0)"
+            onclick="detail('project4')"
+            class="project"
+            data-project="project1"
+          >
+            <div class="container">
+              <div class="sectionfive__container__services">
+                <div class="sectionfive__container__services__service order__2">
+                  <div
+                    class="sectionfive__container__services__service__responsive"
+                  >
+                    <img
+                      src="./static/imgs/two.png"
+                      alt="four"
+                      class="responsive sectionfive__container__services__service__responsive__respo"
+                    />
+                  </div>
+                </div>
+                <div class="sectionfive__container__services__service order__1">
+                  <h2>Multi-Post Stories</h2>
+                  <ul class="first__ul">
+                    <li>Uber</li>
+                    <li class="disc">Lead Developer</li>
+                    <li class="disc">2022</li>
+                  </ul>
+                  <p>
+                    A smart assistant to make driving more safe, efficient, and
+                    fun by unlocking your most expensive computer: your car.
+                  </p>
+                  <ul class="second__ul">
+                    <li>html</li>
+                    <li>Ruby</li>
+                    <li>css</li>
+                    <li>javaScript</li>
+                  </ul>
+                  <button class="hover">See Project</button>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- end sectionfive -->
+      <!-- start sectionsix -->
+      <section class="sectionsix pd-y" id="about">
+        <div class="container">
+          <div class="sectionsix__container__skills">
+            <div class="sectionsix__container__skills__skill">
+              <h2>About Myself</h2>
+              <p>
+                Hello I’m a software developer! I can help you build a product ,
+                feature or website Look through some of my work and experience!
+                If you like what you see and have a project you need coded,
+                don’t hestiate to contact me.
+              </p>
+              <h3>LET’S CONNECT</h3>
+              <ul class="social">
+                <li class="social__responsive">
+                  <a href="https://twitter.com">
+                    <img
+                      src="./static/imgs/twitter.png"
+                      alt="twitter"
+                      class="social__responsive__respo"
+                    />
+                  </a>
+                </li>
+                <li class="social__responsive">
+                  <a href="https://linkedin.com">
+                    <img
+                      src="./static/imgs/Linkedin icon.png"
+                      alt="Linkedin"
+                      class="social__responsive__respo"
+                    />
+                  </a>
+                </li>
+                <li class="social__responsive">
+                  <a href="https://medium.com">
+                    <img
+                      src="./static/imgs/medium.png"
+                      alt="medium"
+                      class="social__responsive__respo"
+                    />
+                  </a>
+                </li>
+                <li class="social__responsive">
+                  <a href="https://github.com">
+                    <img
+                      src="./static/imgs/github.png"
+                      alt="github"
+                      class="social__responsive__respo"
+                    />
+                  </a>
+                </li>
+                <li class="social__responsive">
+                  <a href="https://angellist.com">
+                    <img
+                      src="./static/imgs/angellist.png"
+                      alt="angellist"
+                      class="social__responsive__respo"
+                    />
+                  </a>
+                </li>
+                <li class="clear"></li>
+              </ul>
+              <button class="wow hover">Get My Resume</button>
+            </div>
+            <div class="sectionsix__container__skills__skill">
+              <ul class="accordion">
+                <li>
+                  Languages<span class="icon"
+                    ><img src="./static/imgs/down.png" alt="down"
+                  /></span>
+                </li>
+                <li>
+                  <ul class="content">
+                    <li class="flex">
+                      <img src="./static/imgs/js.png" alt="javaScript" /><span
+                        >javaScript</span
+                      >
+                    </li>
+                    <li class="flex">
+                      <img src="./static/imgs/html.png" alt="html" /><span
+                        >HTML</span
+                      >
+                    </li>
+                    <li class="flex">
+                      <img src="./static/imgs/css.png" alt="css" /><span
+                        >CSS</span
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
+                  Frameworks<span class="icon"
+                    ><img src="./static/imgs/right.png" alt="right.png"
+                  /></span>
+                </li>
+
+                <li>
+                  Skills<span class="icon"
+                    ><img src="./static/imgs/right.png" alt="right.png"
+                  /></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-
-    <footer id="contact-me" class="section-contact">
-      <div class="form-container">
-        <h2>Contact me</h2>
-        <p>
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
-        </p>
-        <form
-          class="contact-form"
-          action="https://formspree.io/f/maykokoe"
-          method="POST"
-          aria-placeholder="First and second name"
-        >
-          <div class="input-control">
-            <label for="input-name" class="label" id="input-name-label"
-              >Name</label
-            >
-            <input
-              id="input-name"
-              type="text"
-              maxlength="30"
-              placeholder="Your Name"
-              required
-            />
+    <!-- end sectionsix -->
+    <!-- start footer -->
+    <div class="white" id="contact">
+      <footer class="footer" id="footer">
+        <div class="container">
+          <div class="footer__container__parfoot">
+            <h3>Contact me</h3>
+            <p>
+              If you have an application you are interested in developing, a
+              feature that you need built or a project that needs coding. I’d
+              love to help with it
+            </p>
+            <form action="https://formspree.io/f/maykokoe" method="post">
+              <div class="form__control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  placeholder="Name"
+                  class="name"
+                  id="name"
+                  maxlength="30"
+                  required
+                  name="name"
+                />
+              </div>
+              <div class="form__control">
+                <label for="email">name@example.com</label>
+                <input
+                  type="email"
+                  placeholder="name@example.com"
+                  class="email"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="form__control">
+                <label for="textarea">Write your message here</label>
+                <textarea
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="textarea"
+                  id="textarea"
+                  placeholder="Write your message here"
+                  maxlength="500"
+                  name="textarea"
+                  required
+                ></textarea>
+              </div>
+              <div class="form__control">
+                <input
+                  type="submit"
+                  placeholder=""
+                  class="submit"
+                  id="submit"
+                  value="Get in touch"
+                />
+              </div>
+            </form>
           </div>
-
-          <div class="input-control">
-            <label for="user-email" class="label" id="input-email-label"
-              >Email</label
-            >
-            <input
-              type="email"
-              id="user-email"
-              placeholder="ex-simple@example.com"
-              required
-            />
-          </div>
-          <div class="input-control">
-            <label for="user-message" class="label" id="input-message-label"
-              >Message</label
-            >
-            <textarea
-              name="message"
-              id="user-message"
-              cols="30"
-              rows="10"
-              placeholder="Write your message here"
-              maxlength="500"
-              required
-            ></textarea>
-          </div>
-          <button type="submit">Get In Touch</button>
-        </form>
-      </div>
-    </footer>
-    <script src="./script.js"></script>
+        </div>
+      </footer>
+    </div>
+    <!-- end footer -->
+    <!-- start js file -->
+    <script src="https://kit.fontawesome.com/7280065e63.js" crossorigin="anonymous"></script>
+    <script src="static/js/index.js"></script>
+    <!-- end js file -->
   </body>
 </html>
